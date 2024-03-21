@@ -1,0 +1,5 @@
+---
+deployment:
+tasks:
+- export DEPLOYPATH=/home/ciww8346/public_html/cftetha-app
+- /bin/cp -r * $DEPLOYPATH
